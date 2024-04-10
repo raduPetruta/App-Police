@@ -36,5 +36,19 @@ namespace policedep_backend.Services.BaseService
             var filter = Builders<TEntity>.Filter.Eq("_id", id);
             return await _collection.Find(filter).FirstOrDefaultAsync();
         }
+
+        public virtual async Task<TEntity> Update(string id, TEntity updatedEntity)
+        {
+            var filter = Builders<TEntity>.Filter.Eq("_id", id);
+            var result = await _collection.ReplaceOneAsync(filter, updatedEntity);
+            if (result.IsAcknowledged && result.ModifiedCount > 0)
+            {
+                return updatedEntity;
+            }
+            else
+            {
+                throw new Exception("Failed to update the entity.");
+            }
+        }
     }
 }

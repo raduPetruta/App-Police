@@ -1,30 +1,69 @@
 /* Documents.css */
 
-.documents-container {
-    padding: 20px; /* Padding around the component */
-  }
-  
-  .documents-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 20px; /* Gap between cards */
-  }
-  
-  .document-card {
-    background-color: #ffffff; /* White background */
-    border: 1px solid #e0e0e0; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 20px; /* Spacing inside the card */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  }
-  
-  .document-card h3 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .document-card p {
-    margin: 5px 0;
-  }
-  
+/* Apply some basic styling to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the table cells */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Add alternating background color to table rows for better readability */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #dddddd;
+}
+/* Container styles */
+.url-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* URL styles */
+.url {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Parameter styles */
+.parameter {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* JSON styles */
+.json {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: #555;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
