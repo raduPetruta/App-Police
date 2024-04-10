@@ -1,0 +1,30 @@
+/* Documents.css */
+
+.documents-container {
+    padding: 20px; /* Padding around the component */
+  }
+  
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Gap between cards */
+  }
+  
+  .document-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .document-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .document-card p {
+    margin: 5px 0;
+  }
+  

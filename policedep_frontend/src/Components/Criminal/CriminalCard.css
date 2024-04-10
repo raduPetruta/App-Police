@@ -1,0 +1,20 @@
+/* CriminalCard.css */
+
+.criminal-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .criminal-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .criminal-card p {
+    margin: 5px 0;
+  }
+  
