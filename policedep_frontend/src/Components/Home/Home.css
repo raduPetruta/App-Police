@@ -1,0 +1,35 @@
+/* styles.css */
+.topbar {
+    background-color: #2196F3; /* Blue color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.topbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topbar li {
+    margin-right: 20px; /* Adjust spacing between elements */
+}
+
+.topbar li:last-child {
+    margin-right: 0;
+}
+
+.topbar a {
+    color: #fff; /* White color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.topbar a:hover {
+    color: #FFC107; /* Yellow color on hover */
+}

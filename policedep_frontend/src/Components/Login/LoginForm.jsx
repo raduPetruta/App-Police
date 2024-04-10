@@ -3,7 +3,7 @@ import axios from 'axios';
 import './LoginForm.css';
 import { useNavigate } from 'react-router-dom';
 
-const LoginForm = () => {
+const LoginForm = ({ setUser }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -27,6 +27,7 @@ const LoginForm = () => {
                 role:"aa"
             });
             console.log('Login successful:', response.data);
+            setUser(response.data); // Set user data in parent component            
             navigate('/home')
         } catch (error) {
             setError('Invalid username or password.');

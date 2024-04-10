@@ -1,0 +1,27 @@
+/* AgentCard.css */
+
+.agent-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .agent-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .agent-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .agent-card p {
+    margin: 5px 0;
+  }
+  

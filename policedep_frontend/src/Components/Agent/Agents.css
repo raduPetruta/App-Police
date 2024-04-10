@@ -1,0 +1,35 @@
+/* Agents.css */
+.agents-container {
+    padding: 20px;
+  }
+  
+  .agents-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Gap between cards */
+  }
+  
+  .agent-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agent-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .agent-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .agent-card p {
+    margin: 5px 0;
+  }
+  
