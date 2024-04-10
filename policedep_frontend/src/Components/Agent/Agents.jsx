@@ -17,7 +17,6 @@ const Agents = () => {
                 console.error('Error fetching agents:', error);
             }
         };
-
         fetchAgents();
     }, []);
 

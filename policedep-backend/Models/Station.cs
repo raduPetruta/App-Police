@@ -8,5 +8,7 @@ namespace policedep_backend.Models
         public required string id { get; set; }
         public required string name {  get; set; }
         public required List<Agent> Agents { get; set; }
+        public required float longitude { get; set; }
+        public required float latitude { get; set; }
     }
 }

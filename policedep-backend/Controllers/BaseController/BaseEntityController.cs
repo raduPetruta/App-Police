@@ -32,5 +32,17 @@ namespace policedep_backend.Controllers.BaseController
             await _entityService.Delete(id);
             return NoContent();
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TEntity>> GetById(string id)
+        {
+            var entity = await _entityService.GetById(id);
+            if (entity == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(entity);
+        }
     }
 }

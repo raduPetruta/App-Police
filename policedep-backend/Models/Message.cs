@@ -7,5 +7,6 @@ namespace policedep_backend.Models
         [BsonId]
         public required string id { get; set; }
         public required string contents { get; set; }
+        public required string sender { get; set; }
     }
 }
