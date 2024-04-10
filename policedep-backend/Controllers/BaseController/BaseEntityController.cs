@@ -44,5 +44,21 @@ namespace policedep_backend.Controllers.BaseController
 
             return Ok(entity);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(string id, TEntity updatedEntity)
+        {
+            try
+            {
+                var entity = await _entityService.Update(id, updatedEntity);
+                if (entity == null)
+                    return NotFound();
+                return Ok(entity);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred while updating the entity: {ex.Message}");
+            }
+        }
     }
 }
