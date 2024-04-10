@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\baseservice\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\baseservice\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityService.cs",
+              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\CityService.cs",
+              "RelativeDocumentMoniker": "Services\\CityService.cs",
+              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\CityService.cs",
+              "RelativeToolTip": "Services\\CityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:56:24.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "Services\\AgentService.cs",
+              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\AgentService.cs",
+              "RelativeToolTip": "Services\\AgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:56:12.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-09T16:28:04.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:27:36.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntityService.cs",
+              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
+              "RelativeDocumentMoniker": "Services\\BaseService\\BaseEntityService.cs",
+              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
+              "RelativeToolTip": "Services\\BaseService\\BaseEntityService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:57:09.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

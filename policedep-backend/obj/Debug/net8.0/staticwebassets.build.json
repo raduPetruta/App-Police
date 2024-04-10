@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fw6VpDznQzG4rh7/yQlbA208M9WkZF3PZmkpI0Y4OeM=",
+  "Source": "policedep-backend",
+  "BasePath": "_content/policedep-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
