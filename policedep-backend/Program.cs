@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.TagHelpers;
 using MongoDB.Driver;
 using Npgsql;
 using policedep_backend.Controllers;
+using policedep_backend.Data;
 using policedep_backend.Database;
 using policedep_backend.Models;
 using policedep_backend.Services;
@@ -27,6 +28,8 @@ builder.Services.AddScoped<BaseEntityService<Message>, MessageService>();
 builder.Services.AddScoped<MessageService>();
 builder.Services.AddScoped<BaseEntityService<Station>, StationService>();
 builder.Services.AddScoped<StationService>();
+builder.Services.AddScoped<BaseEntityService<User>, UserService>();
+builder.Services.AddScoped<UserService>();
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
