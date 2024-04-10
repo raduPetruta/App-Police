@@ -30,5 +30,11 @@ namespace policedep_backend.Services.BaseService
         {
             // Implement delete logic here
         }
+
+        public virtual async Task<TEntity> GetById(string id)
+        {
+            var filter = Builders<TEntity>.Filter.Eq("_id", id);
+            return await _collection.Find(filter).FirstOrDefaultAsync();
+        }
     }
 }

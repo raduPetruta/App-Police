@@ -1,0 +1,21 @@
+.stations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    height: 100vh; /* Add this line */
+    margin-top: 50px;
+  }
+  
+  .station-card {
+    width: 1050px;
+    padding: 16px;
+    margin-left: 20%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+    margin-top: 4%;
+  }
+  

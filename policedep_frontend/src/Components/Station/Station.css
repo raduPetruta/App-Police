@@ -1,0 +1,16 @@
+.circular-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.station-card {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+  border-radius: 50%; /* Create circular shape */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
