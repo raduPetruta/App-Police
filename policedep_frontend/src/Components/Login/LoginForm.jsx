@@ -34,9 +34,10 @@ const LoginForm = ({ setUser }) => {
             console.error('Login failed:', error.response.data);
         }
     };
-
+    
     return (
         <div className="login-container">
+        <h3>Police Department</h3>
         <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
                 <label className="form-label" htmlFor="username">Username:</label>

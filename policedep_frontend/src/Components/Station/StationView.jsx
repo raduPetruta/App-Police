@@ -3,8 +3,14 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import AgentCard from "../Agent/AgentCard"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import { v4 as uuidv4 } from 'uuid'; // Import uuidv4 from uuid
 import { ToastContainer, toast } from 'react-toastify';
+=======
+import { ToastContainer, toast } from 'react-toastify';
+import { v4 as uuidv4 } from 'uuid'; // Import uuidv4 from uuid
+import 'react-toastify/dist/ReactToastify.css';
+>>>>>>> Stashed changes
 =======
 import { ToastContainer, toast } from 'react-toastify';
 import { v4 as uuidv4 } from 'uuid'; // Import uuidv4 from uuid
@@ -15,6 +21,7 @@ import "./StationView.css"
 const StationView = () => {
     const { id } = useParams();
     const [station, setStation] = useState(null);
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     const [isAddingAgent, setIsAddingAgent] = useState(false);
     const [newAgent, setNewAgent] = useState({
@@ -29,6 +36,8 @@ const StationView = () => {
 
     const fetchStationDetails = async (id) => {
 =======
+=======
+>>>>>>> Stashed changes
     const [agentByName, setAgentByName] = useState([]);
     const [isAddingAgent, setIsAddingAgent] = useState(false);
     const [newAgentName, setNewAgentName] = useState('');
@@ -47,6 +56,9 @@ const StationView = () => {
     }, [id]);
 
     const fetchAgentsByNames = async (names) => {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         try {
             const agents = await Promise.all(names.map(name => fetchAgentByName(name)));
@@ -66,6 +78,7 @@ const StationView = () => {
         }
     };
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     if (!station) {return <div>Loading...</div>}; // Show loading message while fetching data}
 
@@ -101,6 +114,8 @@ const StationView = () => {
         }
     };
 =======
+=======
+>>>>>>> Stashed changes
     const handleAddAgent = async (e) => {
         e.preventDefault();
         try {
@@ -122,6 +137,9 @@ const StationView = () => {
         }
     };
     
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     return (
@@ -129,12 +147,15 @@ const StationView = () => {
             <div className="tab station-details-tab">
                 <h2>Station Details</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <p>Station ID: {station.id}</p>
                 <p>Name: {station.name}</p>
                 <div>
                     <h3>Agents</h3>
                     {station.agents.map(agent => (<AgentCard key={agent._id} agent={agent} />))}
 =======
+=======
+>>>>>>> Stashed changes
                 {station && (
                     <>
                         <p>Station ID: {station.id}</p>
@@ -147,12 +168,16 @@ const StationView = () => {
                     {agentByName.map(agent => (
                         <AgentCard key={agent._id} agent={agent} />
                     ))}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 </div>
             </div>
             <div className="tab add-agent-tab">
                 {isAddingAgent ? (
                     <form onSubmit={handleAddAgent}>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         <input type="text" name="name" placeholder="Name" value={newAgent.name} onChange={handleInputChange} />
                         <input type="text" name="function" placeholder="Function" value={newAgent.function} onChange={handleInputChange} />
@@ -165,11 +190,16 @@ const StationView = () => {
                 ) : (
                     <button className="add-agent-button" onClick={() => setIsAddingAgent(true)}>Add Agent</button>
 =======
+=======
+>>>>>>> Stashed changes
                         <input type="text" name="name" placeholder="Name" value={newAgentName} onChange={(e) => setNewAgentName(e.target.value)} />
                         <button type="submit">Add Agent</button>
                     </form>
                 ) : (
                     <button className="add-agent-button" onClick={() => setIsAddingAgent(true)}>Add Agent to Station</button>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 )}
             </div>
