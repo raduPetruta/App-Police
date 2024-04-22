@@ -30,6 +30,8 @@ builder.Services.AddScoped<BaseEntityService<Station>, StationService>();
 builder.Services.AddScoped<StationService>();
 builder.Services.AddScoped<BaseEntityService<User>, UserService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<BaseEntityService<Meeting>, MeetingService>();
+builder.Services.AddScoped<MeetingService>();
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

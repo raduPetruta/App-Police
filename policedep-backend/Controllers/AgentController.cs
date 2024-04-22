@@ -11,8 +11,21 @@ namespace policedep_backend.Controllers
     [Route("/[controller]")]
     public class AgentController : BaseEntityController<Agent>
     {
-        public AgentController(BaseEntityService<Agent> entityService) : base(entityService)
+        public AgentService agentService;
+        public AgentController(BaseEntityService<Agent> entityService, AgentService agentService) : base(entityService)
         {
+            this.agentService = agentService;
+        }
+
+        [HttpGet("/Agent/name/{name}")]
+        public async Task<ActionResult<Agent>> GetByName(string name)
+        {
+            var entity = await agentService.GetByName(name);
+            if (entity == null)
+            {
+                return NotFound();
+            }
+            return Ok(entity);
         }
     }
 }

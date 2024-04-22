@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BXsWnvRHfZcKYCIJ1IXlmxS1Wi9D7Y7+Kr1dPZaC99YgeSQaiHdS6sK3urnBFIIHflKJ7gGAObCPxPZCpL4Hlg==",
+  "dgSpecHash": "lBCbVkOHtFmDr4dLzLNzOPcYX+2kdKuyn76bqGFqOBU/YGGYdfUnugLMZ2gGQR0WxVfxyFxOMei+3+dfqRAnxg==",
   "success": true,
-  "projectFilePath": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\policedep-backend.csproj",
+  "projectFilePath": "D:\\App-Police\\policedep-backend\\policedep-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dudu\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dudu\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

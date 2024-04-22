@@ -11,7 +11,7 @@ namespace policedep_backend.Models
         public required string station { get; set; }
         public required string crimeType {  get; set; }
         [BsonRequired]
-        public required List<Criminal> criminals { get; set; }
-        public required List<Agent> agents { get; set; }
+        public required List<string> criminalsNames { get; set; }
+        public required List<string> agentsNames { get; set; }
     }
 }

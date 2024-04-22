@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\",
+  "WorkspaceRootPath": "D:\\App-Police\\policedep-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\controllers\\stationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:controllers\\stationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\models\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:models\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\models\\criminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:models\\criminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\proiecte an 3\\se db\\policedep-backend\\services\\baseservice\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\services\\baseservice\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\baseservice\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|d:\\app-police\\policedep-backend\\services\\meetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01173DDD-40BA-49AF-BF16-0531AFBAC9D7}|policedep-backend.csproj|solutionrelative:services\\meetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +46,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CityService.cs",
-              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\CityService.cs",
-              "RelativeDocumentMoniker": "Services\\CityService.cs",
-              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\CityService.cs",
-              "RelativeToolTip": "Services\\CityService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "DocumentIndex": 6,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgentController.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "Controllers\\AgentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:56:24.106Z",
+              "WhenOpened": "2024-04-17T20:37:41.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "Services\\AgentService.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Services\\AgentService.cs",
+              "RelativeToolTip": "Services\\AgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:35:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntityService.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
+              "RelativeDocumentMoniker": "Services\\BaseService\\BaseEntityService.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
+              "RelativeToolTip": "Services\\BaseService\\BaseEntityService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:36:15.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Meeting.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Models\\Meeting.cs",
+              "RelativeDocumentMoniker": "Models\\Meeting.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Models\\Meeting.cs",
+              "RelativeToolTip": "Models\\Meeting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:35:06.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AgentService.cs",
-              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\AgentService.cs",
-              "RelativeDocumentMoniker": "Services\\AgentService.cs",
-              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\AgentService.cs",
-              "RelativeToolTip": "Services\\AgentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "StationService.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Services\\StationService.cs",
+              "RelativeDocumentMoniker": "Services\\StationService.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Services\\StationService.cs",
+              "RelativeToolTip": "Services\\StationService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAEwCMAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:56:12.928Z"
+              "WhenOpened": "2024-04-17T19:26:20.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-09T16:28:04.548Z"
+              "DocumentIndex": 8,
+              "Title": "MeetingService.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Services\\MeetingService.cs",
+              "RelativeDocumentMoniker": "Services\\MeetingService.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Services\\MeetingService.cs",
+              "RelativeToolTip": "Services\\MeetingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:24:55.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAOAAAA",
+              "DocumentIndex": 0,
+              "Title": "StationController.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Controllers\\StationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StationController.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Controllers\\StationController.cs",
+              "RelativeToolTip": "Controllers\\StationController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAjwCEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:27:36.967Z"
+              "WhenOpened": "2024-04-17T18:46:02.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BaseEntityService.cs",
-              "DocumentMoniker": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
-              "RelativeDocumentMoniker": "Services\\BaseService\\BaseEntityService.cs",
-              "ToolTip": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\Services\\BaseService\\BaseEntityService.cs",
-              "RelativeToolTip": "Services\\BaseService\\BaseEntityService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Title": "Criminal.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Models\\Criminal.cs",
+              "RelativeDocumentMoniker": "Models\\Criminal.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Models\\Criminal.cs",
+              "RelativeToolTip": "Models\\Criminal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T15:57:09.049Z"
+              "WhenOpened": "2024-04-17T19:18:16.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Station.cs",
+              "DocumentMoniker": "D:\\App-Police\\policedep-backend\\Models\\Station.cs",
+              "RelativeDocumentMoniker": "Models\\Station.cs",
+              "ToolTip": "D:\\App-Police\\policedep-backend\\Models\\Station.cs",
+              "RelativeToolTip": "Models\\Station.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T18:51:58.673Z",
+              "EditorCaption": ""
             }
           ]
         }
