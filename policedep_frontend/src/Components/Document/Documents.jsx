@@ -22,7 +22,6 @@ const Documents = () => {
     const [sortOrder, setSortOrder] = useState('asc');
     const [sortBy, setSortBy] = useState('crimeType');
 
-
     useEffect(() => {
         // Fetch documents from the backend server
         const fetchDocuments = async () => {

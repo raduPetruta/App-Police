@@ -1,0 +1,40 @@
+.station-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px; /* Adding padding for spacing */
+}
+
+.station-details {
+    width: calc(50% - 10px); /* Adjust as needed */
+}
+
+.add-agent-button-container {
+    width: 200px; /* Adjust as needed */
+}
+
+.add-agent-button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color, change as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agent-card {
+    width: 200px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.tab station-details-tab{
+    background-color: rgb(146, 2, 2);
+}
+
+.agents{
+    width: 5%;
+}
