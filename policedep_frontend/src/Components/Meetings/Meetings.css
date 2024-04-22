@@ -1,0 +1,21 @@
+.meetings-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .meeting-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .meeting-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .meeting-details {
+    font-size: 14px;
+  }
+  
