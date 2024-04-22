@@ -7,7 +7,7 @@ namespace policedep_backend.Models
         [BsonId]
         public required string id { get; set; }
         public required string name {  get; set; }
-        public required List<Agent> Agents { get; set; }
+        public List<string> AgentsNames { get; set; }
         public required float longitude { get; set; }
         public required float latitude { get; set; }
     }

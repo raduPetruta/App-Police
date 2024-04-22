@@ -15,9 +15,9 @@ const Home  = ({ user }) => {
                 <li><Link to="/agents">Agents</Link></li>
                 <li><Link to="/criminals">Criminals</Link></li>
                 {user.role === 'admin' && <li><Link to="/documents">Documents</Link></li>}
-                {user.role === 'admin' && <li><Link to="/meetings">Meetings</Link></li>}
                 {user.role === 'admin' && <li><Link to="/messages">Messages</Link></li>}
                 <li><Link to="/stations">Stations</Link></li>
+                <li><Link to="/meetings">Meetings</Link></li>
             </ul>
             <UserDetails user={user} />
         </nav>

@@ -9,6 +9,7 @@ import Documents from "./Components/Document/Documents";
 import Station from "./Components/Station/Station";
 import Chat from "./Components/Chat/Chat";
 import StationView from "./Components/Station/StationView";
+import Meetings from "./Components/Meetings/Meetings";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -25,6 +26,7 @@ function App() {
           <Route path="/stations" element={<Station />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/stations/:id" element={<StationView />} />
+          <Route path="/meetings" element={<Meetings />} />
           {/* Add more routes as needed */}
         </Routes>
       </Router>

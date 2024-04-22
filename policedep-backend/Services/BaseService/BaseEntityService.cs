@@ -16,9 +16,9 @@ namespace policedep_backend.Services.BaseService
             _collection = database.GetCollection<TEntity>(collectionName);
         }
 
-        public virtual async Task<List<TEntity>> GetAll()
+        public virtual Task<List<TEntity>> GetAll()
         {
-            return await _collection.Find(new BsonDocument()).ToListAsync();
+            return _collection.Find(new BsonDocument()).ToListAsync();
         }
 
         public virtual async Task Create(TEntity entity)
@@ -33,13 +33,13 @@ namespace policedep_backend.Services.BaseService
 
         public virtual async Task<TEntity> GetById(string id)
         {
-            var filter = Builders<TEntity>.Filter.Eq("_id", id);
+            var filter = Builders<TEntity>.Filter.Eq("id", id);
             return await _collection.Find(filter).FirstOrDefaultAsync();
         }
 
         public virtual async Task<TEntity> Update(string id, TEntity updatedEntity)
         {
-            var filter = Builders<TEntity>.Filter.Eq("_id", id);
+            var filter = Builders<TEntity>.Filter.Eq("id", id);
             var result = await _collection.ReplaceOneAsync(filter, updatedEntity);
             if (result.IsAcknowledged && result.ModifiedCount > 0)
             {

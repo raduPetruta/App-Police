@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proiecte An 3\\SE DB\\policedep-backend\\policedep-backend.csproj": {}
+    "D:\\App-Police\\policedep-backend\\policedep-backend.csproj": {}
   },
   "projects": {
-    "D:\\Proiecte An 3\\SE DB\\policedep-backend\\policedep-backend.csproj": {
+    "D:\\App-Police\\policedep-backend\\policedep-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\policedep-backend.csproj",
+        "projectUniqueName": "D:\\App-Police\\policedep-backend\\policedep-backend.csproj",
         "projectName": "policedep-backend",
-        "projectPath": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\policedep-backend.csproj",
+        "projectPath": "D:\\App-Police\\policedep-backend\\policedep-backend.csproj",
         "packagesPath": "C:\\Users\\Dudu\\.nuget\\packages\\",
-        "outputPath": "D:\\Proiecte An 3\\SE DB\\policedep-backend\\obj\\",
+        "outputPath": "D:\\App-Police\\policedep-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dudu\\AppData\\Roaming\\NuGet\\NuGet.Config",
